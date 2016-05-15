@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoping.test01.MainActivity" >
+
+    <com.xiaoping.test01.view.AbSlidingPlayView
+        android:id="@+id/auto_play_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null" />
+
+</RelativeLayout>
